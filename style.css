@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.sidebar .nav-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
